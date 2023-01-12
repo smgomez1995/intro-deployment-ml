@@ -15,9 +15,9 @@ def save_simple_metrics_report(train_score: float,
         report_file.write('# Model Pipeline Description')
         for key, value in model.named_steps.items():
             report_file.write(f'### {key}:{value.__repr__()}' + '\n')
-        report_file.write('## Train Score: {train_score}')
-        report_file.write('## Test Score: {test_score}')
-        report_file.write('## Test Score: {validation_score}')
+        report_file.write(f'### Train Score: {round(train_score, 4)*100}' + '\n')
+        report_file.write(f'### Test Score: {round(test_score, 4)*100}' + '\n')
+        report_file.write(f'### Test Score: {round(validation_score, 4)*100}' + '\n')
 
 def get_model_performance_test_set(y_real: pd.Series, 
                                     y_pred: pd.Series) -> None:
