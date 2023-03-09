@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 class PredictionRequest(BaseModel):
-    opening_groos : float
+    opening_gross : float
     screens: float
     production_budget: float
     title_year: int
