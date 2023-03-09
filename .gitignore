@@ -1,6 +1,10 @@
 .venv/
+-ipynb_checkpoints/
 *.ipynb_checkpoints/
 *.json
 *.csv
 *.pkl
 *.DS_Store
+report.txt
+*.png
+__pycache__/
