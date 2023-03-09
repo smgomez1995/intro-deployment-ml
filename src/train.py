@@ -9,6 +9,8 @@ import sys
 import numpy as np
 import pandas as pd
 
+## Recuerda hacer el export GOOGLE_APPLICATION_CREDENTIALS="mlops-platzi....json"
+
 logging.basicConfig(
     format='%(asctime)s %(levelname)s:%(name)s: %(message)s',
     level=logging.INFO,
