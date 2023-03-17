@@ -1,5 +1,5 @@
 
-# HOW TO PUT IT TO WORK
+## HOW TO PUT IT TO WORK
 
 1. GOOGLE_APPLICATION_CREDENTIALS="mlops-platzi-372802-6b4c53399424.json"
 2. Activar el .venv: source .venv/bin/activate
